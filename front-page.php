@@ -1,0 +1,1 @@
+Hello this is the frint page.php template

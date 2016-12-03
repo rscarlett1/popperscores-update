@@ -74,7 +74,7 @@ function popperscores_setup() {
 	/**
 	 * Add editor styles
 	 */
-	add_editor_style( array( 'inc/editor-style.css', 'fonts/custom-fonts.css', 'https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css' ) );
+	add_editor_style( array( 'inc/editor-style.css', 'fonts/custom-fonts.css' ) );
 }
 endif; // popperscores_setup
 add_action( 'after_setup_theme', 'popperscores_setup' );
@@ -110,13 +110,15 @@ add_action( 'widgets_init', 'popperscores_widgets_init' );
  * Enqueue scripts and styles.
  */
 function popperscores_scripts() {
-	wp_enqueue_style( 'popperscores-style', get_stylesheet_uri() );
+
+	wp_enqueue_style('popperscores-style', get_stylesheet_uri() );
+
+	wp_enqueue_style('popperscores-local-fonts', get_template_directory_uri() .'/fonts/custom-fonts.css' );
+
+	wp_enqueue_script('horse-website-font-awesome', 'https://use.fontawesome.com/ac1f5783d2.js' ,[], '4.0.7', true );
 	
-	// Add Google Fonts: Fira Sans and Merriweather
-	wp_enqueue_style( 'popperscores-local-fonts', get_template_directory_uri() . '/fonts/custom-fonts.css' );
+		
 	
-	// Add Font Awesome icons (http://fontawesome.io) 
-	wp_enqueue_style( 'popperscores-fontawesome', 'https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css' );
 	
 	wp_enqueue_script( 'popperscores-navigation', get_template_directory_uri() . '/js/functions.js', array( 'jquery' ), '20120206', true );
 	wp_localize_script( 'popperscores-navigation', 'screenReaderText', array(
