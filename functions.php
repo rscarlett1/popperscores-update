@@ -111,14 +111,18 @@ add_action( 'widgets_init', 'popperscores_widgets_init' );
  */
 function popperscores_scripts() {
 
+	// if( is_front_page() ){
+	// 	wp_enqueue_style( 'popperscores-style', get_template_directory_uri() . '/front-page-style.css' );
+	// }
+
+
 	wp_enqueue_style('popperscores-style', get_stylesheet_uri() );
 
 	wp_enqueue_style('popperscores-local-fonts', get_template_directory_uri() .'/fonts/custom-fonts.css' );
 
-	wp_enqueue_script('horse-website-font-awesome', 'https://use.fontawesome.com/ac1f5783d2.js' ,[], '4.0.7', true );
-	
+	wp_enqueue_script('popperscores-font-awesome', 'https://use.fontawesome.com/ac1f5783d2.js' ,[], '4.0.7', true );
+
 		
-	
 	
 	wp_enqueue_script( 'popperscores-navigation', get_template_directory_uri() . '/js/functions.js', array( 'jquery' ), '20120206', true );
 	wp_localize_script( 'popperscores-navigation', 'screenReaderText', array(

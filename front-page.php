@@ -17,19 +17,19 @@ get_header(); ?>
 			<section id="featured-products">
 				<h2>Featured Products</h2>
 
-				<div>
+				<div class="placeholder">
 					<img src="" alt="">
 				</div>
 
-				<div>
+				<div class="placeholder">
 					<img src="" alt="">
 				</div>
 
-				<div>
+				<div class="placeholder">
 					<img src="" alt="">
 				</div>
 
-				<div>
+				<div class="placeholder">
 					<img src="" alt="">
 				</div>
 
@@ -89,5 +89,5 @@ get_header(); ?>
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
-<?php get_sidebar(); ?>
+
 <?php get_footer(); ?>

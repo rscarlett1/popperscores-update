@@ -32,6 +32,8 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 # Alignments
 # Clearings
 # Header
+# Website Pages
+	## Front Page
 # Widgets
 # Content
 	## Indexes
@@ -45,6 +47,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 	## Images
 	## Galleries
 	## Footer
+
 --------------------------------------------------------------*/
 
 /*--------------------------------------------------------------
@@ -1159,6 +1162,59 @@ input.search-submit{
 .search-form {
 	padding: 50px;
 }
+
+/*--------------------------------------------------------------
+# Website Pages
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Front page
+--------------------------------------------------------------*/
+#primary{
+	background-color: #d7d7d7;
+}
+
+/*slider area*/
+#slider{
+	background-color: #8abf5e;
+	padding: 4rem 0;
+}
+
+/*featured product images*/
+#featured-products{
+	background-color: blue;
+	padding: 4rem 0;
+}
+
+.placeholder{
+	background-image: url(http://localhost/wordpress/wp-content/uploads/2016/12/holsteiner-stute-2400px.png) no-repeat;
+}	
+
+
+
+/*description item 1*/
+#description-top{
+	background-color: purple;
+	padding: 4rem 0;
+}
+
+/*description item 2*/
+#description-bottom{
+	background-color: yellow;
+	padding: 4rem 0;
+}
+
+/*member sign up form*/
+#members-sign-up{
+	background-color: olive;
+	padding: 4rem 0;
+}
+
+/*member links*/
+ #buttons{
+ 	background-color: green;
+ 	padding: 4rem 0;
+ }
 
 
 
