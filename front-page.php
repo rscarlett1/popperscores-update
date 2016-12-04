@@ -12,7 +12,14 @@ get_header(); ?>
 
 			<section id="slider">
 				<div class="indent">
-					<h1>Slider</h1>
+					
+					<?php echo popperscores_slider_template(); ?>
+
+
+
+
+
+
 				</div>
 			</section>
 

@@ -122,6 +122,7 @@ function popperscores_scripts() {
 
 	wp_enqueue_style('popperscores-local-fonts', get_template_directory_uri() .'/fonts/custom-fonts.css' );
 
+
 	wp_enqueue_script('popperscores-font-awesome', 'https://use.fontawesome.com/ac1f5783d2.js' ,[], '4.0.7', true );
 
 		
@@ -158,4 +159,10 @@ require get_template_directory() . '/inc/customizer.php';
  * Load Jetpack compatibility file.
  */
 require get_template_directory() . '/inc/jetpack.php';
+
+// Create Slider Post Type
+require( get_template_directory() . '/inc/slider/slider_post_type.php' );
+
+// Create Slider
+require( get_template_directory() . '/inc/slider/slider.php' );
 
