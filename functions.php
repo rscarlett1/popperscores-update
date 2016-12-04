@@ -106,6 +106,8 @@ function popperscores_widgets_init() {
 	) );
 }
 add_action( 'widgets_init', 'popperscores_widgets_init' );
+
+
 /**
  * Enqueue scripts and styles.
  */

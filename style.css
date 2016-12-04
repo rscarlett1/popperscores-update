@@ -642,7 +642,7 @@ a:active {
 
 .dropdown-toggle {
 	position: absolute;
-	height: 27px;
+	/*height: 27px;*/
 	width: 27px;
 	top: 12px;
 	right: 6px;
@@ -732,8 +732,8 @@ a:active {
 }
 
 .nav-menu {
-	padding: 1em;
-	margin-bottom: 3em;
+	/**/
+	/*margin-bottom: 3em;*/
 	background-color: #000;
 }
 
@@ -852,6 +852,14 @@ a:active {
 		width: 27px;
 	}
 	
+}
+
+/*dropdown fix*/
+
+#menu .ddsmoothmenu li:hover ul {
+ visibility: visible;
+ display: block;
+ top: 20px;
 }
 
 /*--------------------------------------------------------------
@@ -1065,7 +1073,7 @@ a:active {
 .entry-content:after,
 .comment-content:after,
 .site-header:after,
-.site-content:after,
+.site-content:after
 .site-footer:after {
 	clear: both;
 }
@@ -1073,8 +1081,25 @@ a:active {
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
+.site-header{
+	background-color: red;
+	margin: 0;
+	padding: 0;
+	height: 15%;
+}
+
+#primary-menu {
+    margin-bottom: 0;
+}
+
+
 .site-branding{
     text-align: center;
+ }
+
+ .site-branding p{
+ 	margin: 0;
+
  }
 
 /*section on top of the header*/
@@ -1102,6 +1127,7 @@ a:active {
     #top-header {
 	font-size: 1.000em;
 	justify-content: center;
+	}
 }
 
 @media all and (min-width: 600px) {
