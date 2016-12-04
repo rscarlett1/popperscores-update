@@ -1174,6 +1174,24 @@ input.search-submit{
 	background-color: #d7d7d7;
 }
 
+.indent{
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+@media screen and (max-width: 1099px){
+	.indent{
+		margin: 0;
+		padding: 0 4rem;
+	}
+}
+
+@media screen and (max-width:320px){
+	.indent{
+		margin: 0 2rem;
+	}
+}
+
 /*slider area*/
 #slider{
 	background-color: #8abf5e;
