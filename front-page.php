@@ -13,12 +13,7 @@ get_header(); ?>
 			<section id="slider">
 				<div class="indent">
 					
-			<?php if ( function_exists( "easingslider" ) ) { easingslider( 1823 ); } ?>
-
-
-
-
-
+			<?php echo do_shortcode("[huge_it_slider id='1']"); ?>
 
 				</div>
 			</section>
@@ -26,21 +21,27 @@ get_header(); ?>
 			<section id="featured-products">
 				<div class="indent">
 					<h2>Featured Products</h2>
+					<div id="img-movement">
 
-					<div class="placeholder">
-						<img src="" alt="">
-					</div>
+						<div class="placeholder">
+							<img src="http://localhost/wordpress/wp-content/uploads/2016/12/holsteiner-stute-2400px.png" alt="">
+						</div>
 
-					<div class="placeholder">
-						<img src="" alt="">
-					</div>
+						<div class="placeholder">
+							<img src="http://localhost/wordpress/wp-content/uploads/2016/12/holsteiner-stute-2400px.png" alt="">
+						</div>
 
-					<div class="placeholder">
-						<img src="" alt="">
-					</div>
+						<div class="placeholder">
+							<img src="http://localhost/wordpress/wp-content/uploads/2016/12/holsteiner-stute-2400px.png" alt="">
+						</div>
 
-					<div class="placeholder">
-						<img src="" alt="">
+						<div class="placeholder no-display-1">
+							<img src="http://localhost/wordpress/wp-content/uploads/2016/12/holsteiner-stute-2400px.png"" alt="">
+						</div>
+
+						<div class="placeholder no-display-2">
+							<img src="http://localhost/wordpress/wp-content/uploads/2016/12/holsteiner-stute-2400px.png"" alt="">
+						</div>
 					</div>
 				</div>
 			</section>

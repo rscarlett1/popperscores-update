@@ -686,7 +686,7 @@ a:active {
 
 .menu-toggle {
 	position: fixed;
-	z-index: 100;
+	z-index: 10000;
 	bottom: 1em;
 	left: 1em;
 	font-size: 1em;
@@ -1146,13 +1146,15 @@ a:active {
 /*header logo image*/
 #header{
 	background: url(/images/header-image.jpg) no-repeat;
+
 }
 
 /*large background image*/
 #horse-image{
         background: url("http://localhost/wordpress/wp-content/uploads/2016/11/horse-fur-1463818236Jdk.jpg") !important;
         background-repeat: no-repeat ;
-        background-position: center; 
+        background-position: center;
+        max-height: 250px; 
 }
 
 #logo-area{
@@ -1226,9 +1228,77 @@ input.search-submit{
 	padding: 1rem 0;
 }
 
+/*mobile view*/
 .placeholder{
-	background-image: url(http://localhost/wordpress/wp-content/uploads/2016/12/holsteiner-stute-2400px.png) no-repeat;
-}	
+	width: 250px;
+	height: 250px;
+	border: black 2px solid;
+	margin: 10px auto;
+}
+
+.no-display-1{
+	display: none;
+}
+
+.no-display-2{
+	display: none;
+}
+
+.indent h2{
+	text-align: center;
+}
+
+@media screen and (min-width: 600px){
+
+	.no-display-1{
+		display: inline-block;
+	}
+	#img-movement{
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	#img-movement{
+		flex: 1 0 30%;
+		align-items: center;
+	}
+
+}
+
+@media screen and (min-width: 800px){
+		.placeholder{
+		max-width: 22%;
+		max-height: 200px;
+		margin: 5px;
+		align-items: center;
+	}
+
+
+}
+
+@media screen and (min-width: 1200px){
+	
+	.placeholder{
+		max-width: 18%;
+		max-height: 200px;
+	}
+
+	.no-display-2{
+		display: inline-block;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
