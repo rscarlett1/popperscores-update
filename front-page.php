@@ -73,9 +73,9 @@ get_header(); ?>
 
 			<section id="members-sign-up">
 				<div class="indent">
-					<h2>Let us spoil you with early access to our products and new releases</h2>
+					<p>Let us spoil you with early access to our products and new releases</p>
 
-					<div>
+					<div id="top-sign-up">
 						<form>
 							<label>First name: </label>
 							<input type="text" name="fname"><br>
@@ -90,13 +90,13 @@ get_header(); ?>
 			</section>
 
 			<section id="buttons">
-				<div class="indent">
+				<div id="flex" class="indent">
 					<div class="button-left">
-						<button>View our blog "A Hourse Of Course"</button>
+						<button class="view">View our blog "A Horse Of Course"</button>
 					</div>
 
 					<div class="button-right">
-						<button>View Our Testimonials</button>
+						<button class="view">View Our Testimonials</button>
 					</div>
 				</div>
 			</section>

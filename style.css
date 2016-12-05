@@ -1249,16 +1249,71 @@ input.search-submit{
 }
 
 /*member sign up form*/
+
+#members-sign-up div p{
+	text-align: center;
+	font-size: larger;
+	font-weight: bold;
+}
+
 #members-sign-up{
 	background-color: olive;
 	padding: 4rem 0;
 }
 
+#top-sign-up{
+	display: flex;
+	display: wrap;
+	justify-content: center;
+}
+
+#top-sign-up div{
+	flex: 1 0 100%;
+}
+
+
+
+
+
 /*member links*/
  #buttons{
  	background-color: green;
  	padding: 4rem 0;
- }
+}
+
+.button-left,
+.button-right{
+	width: 100%;
+	padding: 0;
+
+}
+
+button.view {
+    font-size: larger;
+}
+
+.button-right{
+	background-color: 
+}
+
+@media screen and (min-width: 600px){
+
+	
+	#flex{
+		display: flex;
+	}
+	
+	#flex div{
+		flex: 1 0 50%;
+	}
+	
+	.button-right{
+		width: 50%;
+		padding-left: 4rem;
+		text-align: right;
+		display: flex;
+	}
+}
 
 
 
@@ -2568,7 +2623,7 @@ img.alignleft {
 }
 
 #email-padding{
-	margin-left: 7%;
+	margin-left: 8%;
 }
 
 #links,

@@ -64,7 +64,7 @@
  
                         <?php // Check if there's a Slide URL given and if so let's a link to it
                         if ( get_post_meta( get_the_id(), 'popperscores_slideurl', true) != '' ) { ?>
-                            <a href="<?php echo esc_url( get_post_meta( get_the_id(), 'wptuts_slideurl', true) ); ?>">
+                            <a href="<?php echo esc_url( get_post_meta( get_the_id(), 'popperscores_slideurl', true) ); ?>">
                         <?php }
  
                         // The Slide's Image

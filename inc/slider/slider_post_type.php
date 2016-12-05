@@ -57,8 +57,8 @@
                     array(
                         'name'          => 'Slide URL',
                         'desc'          => '',
-                        'id'                => 'wptuts_slideurl',
-                        'class'             => 'wptuts_slideurl',
+                        'id'                => 'popperscores_slideurl',
+                        'class'             => 'popperscores_slideurl',
                         'type'          => 'text',
                         'rich_editor'   => 0,            
                         'max'           => 0             
@@ -66,13 +66,13 @@
                     )
     );          
                  
-    add_action('admin_menu', 'wptuts_add_slidelink_2_meta_box');
+    add_action('admin_menu', 'popperscores_add_slidelink_2_meta_box');
     function popperscores_add_slidelink_2_meta_box() {
      
         global $slidelink_2_metabox;        
      
         foreach($slidelink_2_metabox['page'] as $page) {
-            add_meta_box($slidelink_2_metabox['id'], $slidelink_2_metabox['title'], 'wptuts_show_slidelink_2_box', $page, 'normal', 'default', $slidelink_2_metabox);
+            add_meta_box($slidelink_2_metabox['id'], $slidelink_2_metabox['title'], 'popperscores_show_slidelink_2_box', $page, 'normal', 'default', $slidelink_2_metabox);
         }
     }
      
@@ -80,11 +80,11 @@
     function popperscores_show_slidelink_2_box()  {
         global $post;
         global $slidelink_2_metabox;
-        global $wptuts_prefix;
+        global $popperscores_prefix;
         global $wp_version;
          
         // Use nonce for verification
-        echo '<input type="hidden" name="wptuts_slidelink_2_meta_box_nonce" value="', wp_create_nonce(basename(__FILE__)), '" />';
+        echo '<input type="hidden" name="popperscores_slidelink_2_meta_box_nonce" value="', wp_create_nonce(basename(__FILE__)), '" />';
          
         echo '<table class="form-table">';
      
@@ -95,7 +95,7 @@
              
             echo '<tr>',
                     '<th style="width:20%"><label for="', $field['id'], '">', stripslashes($field['name']), '</label></th>',
-                    '<td class="wptuts_field_type_' . str_replace(' ', '_', $field['type']) . '">';
+                    '<td class="popperscores_field_type_' . str_replace(' ', '_', $field['type']) . '">';
             switch ($field['type']) {
                 case 'text':
                     echo '<input type="text" name="', $field['id'], '" id="', $field['id'], '" value="', $meta ? $meta : $field['std'], '" size="30" style="width:97%" /><br/>', '', stripslashes($field['desc']);
@@ -109,13 +109,13 @@
     }   
      
     // Save data from meta box
-    add_action('save_post', 'wptuts_slidelink_2_save');
+    add_action('save_post', 'popperscores_slidelink_2_save');
     function popperscores_slidelink_2_save($post_id) {
         global $post;
         global $slidelink_2_metabox;
          
         // verify nonce
-        if (!wp_verify_nonce($_POST['wptuts_slidelink_2_meta_box_nonce'], basename(__FILE__))) {
+        if (!wp_verify_nonce($_POST['popperscores_slidelink_2_meta_box_nonce'], basename(__FILE__))) {
             return $post_id;
         }
      
@@ -140,7 +140,7 @@
              
             if ($new && $new != $old) {
                 if($field['type'] == 'date') {
-                    $new = wptuts_format_date($new);
+                    $new = popperscores_format_date($new);
                     update_post_meta($post_id, $field['id'], $new);
                 } else {
                     if(is_string($new)) {
