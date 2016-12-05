@@ -1208,26 +1208,22 @@ input.search-submit{
 @media screen and (max-width: 1099px){
 	.indent{
 		margin: 0;
-		padding: 0 4rem;
+		padding: 0 1.5rem;
 	}
 }
 
-@media screen and (max-width:320px){
-	.indent{
-		margin: 0 2rem;
-	}
-}
+
 
 /*slider area*/
 #slider{
 	background-color: #8abf5e;
-	padding: 4rem 0;
+	padding: 1rem 0;
 }
 
 /*featured product images*/
 #featured-products{
 	background-color: blue;
-	padding: 4rem 0;
+	padding: 1rem 0;
 }
 
 .placeholder{
@@ -1239,16 +1235,21 @@ input.search-submit{
 /*description item 1*/
 #description-top{
 	background-color: purple;
-	padding: 4rem 0;
+	padding: 1rem 0;
 }
 
 /*description item 2*/
 #description-bottom{
 	background-color: yellow;
-	padding: 4rem 0;
+	padding: 1rem 0;
 }
 
 /*member sign up form*/
+
+#members-sign-up{
+	background-color: olive;
+	padding: 1rem 0;
+}
 
 #members-sign-up div p{
 	text-align: center;
@@ -1256,20 +1257,13 @@ input.search-submit{
 	font-weight: bold;
 }
 
-#members-sign-up{
-	background-color: olive;
-	padding: 4rem 0;
+#members-sign-up form{
+	text-align: center;
+	
 }
 
-#top-sign-up{
-	display: flex;
-	display: wrap;
-	justify-content: center;
-}
 
-#top-sign-up div{
-	flex: 1 0 100%;
-}
+
 
 
 
@@ -1278,29 +1272,35 @@ input.search-submit{
 /*member links*/
  #buttons{
  	background-color: green;
- 	padding: 4rem 0;
+ 	padding: 1rem 0;
 }
 
 .button-left,
 .button-right{
 	width: 100%;
-	padding: 0;
+	padding: 5px;
 
 }
 
 button.view {
     font-size: larger;
+    padding: 6px 6px;
 }
 
-.button-right{
-	background-color: 
+#flex{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
 }
+
+
 
 @media screen and (min-width: 600px){
 
 	
 	#flex{
 		display: flex;
+		flex-wrap: wrap;
 	}
 	
 	#flex div{
@@ -2623,7 +2623,7 @@ img.alignleft {
 }
 
 #email-padding{
-	margin-left: 8%;
+	margin-left: 20px;
 }
 
 #links,

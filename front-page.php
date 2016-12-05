@@ -13,7 +13,7 @@ get_header(); ?>
 			<section id="slider">
 				<div class="indent">
 					
-					<?php echo popperscores_slider_template(); ?>
+			<?php if ( function_exists( "easingslider" ) ) { easingslider( 1823 ); } ?>
 
 
 
@@ -72,7 +72,7 @@ get_header(); ?>
 			</section>
 
 			<section id="members-sign-up">
-				<div class="indent">
+				<div id="sign-up" class="indent">
 					<p>Let us spoil you with early access to our products and new releases</p>
 
 					<div id="top-sign-up">
