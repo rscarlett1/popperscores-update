@@ -47,9 +47,9 @@ get_header(); ?>
 			</section>
 
 			<section id="description-top">
-				<div class="indent">
-					<div>
-						<img src="" alt="">
+				<div class="indent" id="detailed-images">
+					<div id="image-left">
+						<img src="http://localhost/wordpress/wp-content/uploads/2016/12/holsteiner-stute-2400px.png" alt="featured product">
 					</div>
 
 					<div>
@@ -61,14 +61,20 @@ get_header(); ?>
 
 			<section id="description-bottom">
 				<div class="indent">
-					<div>
+					<div id="full-screen-details">
 						<h2>Wallpaper Decor</h2>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste fugit ratione perspiciatis, quas tempora officiis labore nostrum, voluptatem dicta magni accusamus, nihil vero excepturi, molestiae eum mollitia ipsa nesciunt facilis.</p>
 					</div>
 
-					<div>
-						<img src="" alt="">
+					<div id="bottom-image">
+						<img src="http://localhost/wordpress/wp-content/uploads/2016/12/holsteiner-stute-2400px.png" alt="">
 					</div>
+
+					<div id="mobile-view-details">
+						<h2>Wallpaper Decor</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste fugit ratione perspiciatis, quas tempora officiis labore nostrum, voluptatem dicta magni accusamus, nihil vero excepturi, molestiae eum mollitia ipsa nesciunt facilis.</p>
+					</div>
+
 				</div>
 			</section>
 
