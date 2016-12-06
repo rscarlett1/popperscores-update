@@ -1303,6 +1303,17 @@ input.search-submit{
 }
 
 /*detailed products area*/
+/*description item 1*/
+#description-top{
+	background-color: purple;
+	padding: 1rem 0;
+}
+
+/*description item 2*/
+#description-bottom{
+	background-color: yellow;
+	padding: 1rem 0;
+}
 
 #full-screen-details{
 	display: none;
@@ -1380,9 +1391,6 @@ input.search-submit{
 		margin: 50px;
 		max-width: 80%;
 	}
-
-
-
 }	
 
 
@@ -1390,26 +1398,6 @@ input.search-submit{
 
 
 
-
-
-
-
-
-
-
-
-
-/*description item 1*/
-#description-top{
-	background-color: purple;
-	padding: 1rem 0;
-}
-
-/*description item 2*/
-#description-bottom{
-	background-color: yellow;
-	padding: 1rem 0;
-}
 
 /*member sign up form*/
 
@@ -1426,7 +1414,22 @@ input.search-submit{
 
 #members-sign-up form{
 	text-align: center;
-	
+}
+
+@media screen and (min-width: 1000px){
+	#members-sign-up form{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+
+	#members-sign-up form div{
+		flex: 1 0 30%;
+	}
+
+	#email-padding{
+	margin-left: 0px;
+		}
 }
 
 
