@@ -60,7 +60,7 @@ get_header(); ?>
 			</section>
 
 			<section id="description-bottom">
-				<div class="indent">
+				<div id="display-images" class="indent" >
 					<div id="full-screen-details">
 						<h2>Wallpaper Decor</h2>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste fugit ratione perspiciatis, quas tempora officiis labore nostrum, voluptatem dicta magni accusamus, nihil vero excepturi, molestiae eum mollitia ipsa nesciunt facilis.</p>
@@ -70,12 +70,14 @@ get_header(); ?>
 						<img src="http://localhost/wordpress/wp-content/uploads/2016/12/holsteiner-stute-2400px.png" alt="">
 					</div>
 
+				</div>
+
 					<div id="mobile-view-details">
 						<h2>Wallpaper Decor</h2>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste fugit ratione perspiciatis, quas tempora officiis labore nostrum, voluptatem dicta magni accusamus, nihil vero excepturi, molestiae eum mollitia ipsa nesciunt facilis.</p>
 					</div>
 
-				</div>
+				
 			</section>
 
 			<section id="members-sign-up">
