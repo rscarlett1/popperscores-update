@@ -1211,9 +1211,8 @@ input.search-submit{
 #primary{
 	background-color: #d7d7d7;
 }
-
 .indent{
-	max-width: 1000px;
+	max-width: 1200px;
 	margin: 0 auto;
 }
 
@@ -1226,13 +1225,12 @@ input.search-submit{
 
 /*slider area*/
 #slider{
-	background-color: #8abf5e;
 	padding: 1rem 0;
+	height: auto;
 }
 
 /*featured product images*/
 #featured-products{
-	background-color: blue;
 	padding: 1rem 0;
 }
 
@@ -1305,13 +1303,11 @@ input.search-submit{
 /*detailed products area*/
 /*description item 1*/
 #description-top{
-	background-color: purple;
 	padding: 1rem 0;
 }
 
 /*description item 2*/
 #description-bottom{
-	background-color: yellow;
 	padding: 1rem 0;
 }
 
@@ -1320,7 +1316,6 @@ input.search-submit{
 }
 
 #detailed-images{
-	background-color: red;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -1348,7 +1343,6 @@ input.search-submit{
 	}
 
 	#detailed-images{
-		background-color: #fff;
 		flex-direction: row;
 		flex-wrap: wrap;
 	}
@@ -1363,7 +1357,6 @@ input.search-submit{
 
 /*bottom image block*/
 #display-images{
-	background-color: green;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -1378,7 +1371,6 @@ input.search-submit{
 
 @media screen and (min-width: 700px){
 	#display-images{
-		background-color: yellow;
 		flex-direction: row;
 		flex-wrap: wrap;
 	}
@@ -1391,18 +1383,17 @@ input.search-submit{
 		margin: 50px;
 		max-width: 80%;
 	}
-}	
 
+	input[type="submit"] {
+    margin-bottom: 10px;
+	}	
 
-
-
-
+}
 
 
 /*member sign up form*/
 
 #members-sign-up{
-	background-color: olive;
 	padding: 1rem 0;
 }
 
@@ -1412,8 +1403,17 @@ input.search-submit{
 	font-weight: bold;
 }
 
-#members-sign-up form{
+#members-sign-up, form{
 	text-align: center;
+}
+
+#top-sign-up
+form,
+input[type="submit"] {
+    text-align: center;
+    font-weight: bold;
+    padding: 15px;
+    font-size: large;
 }
 
 @media screen and (min-width: 1000px){
@@ -1427,9 +1427,11 @@ input.search-submit{
 		flex: 1 0 30%;
 	}
 
-	#email-padding{
-	margin-left: 0px;
-		}
+	#top-sign-up,
+	form,
+	input[type="email"] {
+    margin-bottom: 10px;
+	}
 }
 
 
@@ -1441,7 +1443,6 @@ input.search-submit{
 
 /*member links*/
  #buttons{
- 	background-color: green;
  	padding: 1rem 0;
 }
 
@@ -1449,11 +1450,10 @@ input.search-submit{
 .button-right{
 	width: 100%;
 	padding: 5px;
-
 }
 
 button.view {
-    font-size: larger;
+    font-size: 20;
     padding: 6px 6px;
 }
 
@@ -1463,13 +1463,10 @@ button.view {
 	text-align: center;
 }
 
-
-
 @media screen and (min-width: 600px){
 
-	
 	#flex{
-		display: flex;
+		flex-direction: row;
 		flex-wrap: wrap;
 	}
 	
@@ -1483,7 +1480,28 @@ button.view {
 		text-align: right;
 		display: flex;
 	}
+
+	button.view {
+	    padding: 20px;
+	    font-weight: bold;
+	    font-size: x-large;
+	}
 }
+
+@media screen and (min-width: 800px){
+	button.view {
+	    font-size: 30;
+	    padding: 6px 6px;
+	}
+
+	button.view {
+	    padding: 20px;
+	    font-weight: bold;
+	    font-size: xx-large;
+	}
+}
+
+
 
 
 
