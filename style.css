@@ -1395,48 +1395,34 @@ input.search-submit{
 
 #members-sign-up{
 	padding: 1rem 0;
+	background-color: yellow;
 }
 
-#members-sign-up div p{
-	text-align: center;
-	font-size: larger;
-	font-weight: bold;
+aside#wysija-2 {
+    width: 100%;
+    margin: 20 auto;
 }
 
-#members-sign-up, form{
-	text-align: center;
-}
-
-#top-sign-up
-form,
-input[type="submit"] {
-    text-align: center;
-    font-weight: bold;
-    padding: 15px;
-    font-size: large;
-}
-
-@media screen and (min-width: 1000px){
-	#members-sign-up form{
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: space-around;
+@media screen and (min-width: 500px){
+	
+	#center-wysija{
+		text-align: center;
 	}
 
-	#members-sign-up form div{
-		flex: 1 0 30%;
+	aside#wysija-2 p{
+		text-align: center;
 	}
 
-	#top-sign-up,
-	form,
-	input[type="email"] {
-    margin-bottom: 10px;
+	input.wysija-submit.wysija-submit-field {
+		margin: 0 auto;
 	}
+
+	div#wysija-flex {
+		    display: flex;
+		    justify-content: space-between;
+	}
+
 }
-
-
-
-
 
 
 
@@ -1444,6 +1430,7 @@ input[type="submit"] {
 /*member links*/
  #buttons{
  	padding: 1rem 0;
+ 	display: inline-block;
 }
 
 .button-left,
@@ -1500,6 +1487,8 @@ button.view {
 	    font-size: xx-large;
 	}
 }
+
+@media screen and (min-width: 1000px){
 
 
 

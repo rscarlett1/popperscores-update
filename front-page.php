@@ -82,19 +82,55 @@ get_header(); ?>
 
 			<section id="members-sign-up">
 				<div id="sign-up" class="indent">
-					<p>Let us spoil you with early access to our products and new releases</p>
+	
+					</form></aside><aside id="wysija-2" class="widget widget_wysija"><h2 class="widget-title">Subscribe to our Newsletter</h2><div class="widget_wysija_cont"><div id="msg-form-wysija-2" class="wysija-msg ajax"></div><form id="form-wysija-2" method="post" action="#wysija" class="widget_wysija">
 
-					<div id="top-sign-up">
-						<form>
-							<label>First name: </label>
-							<input type="text" name="fname"><br>
-							<label>Last name:</label>
-							<input type="text" name="lname"><br>
-							<label id="email-padding">E-mail:</label>
-							<input type="email" name="email" autocomplete="off"><br>
-							<input type="submit">
-						</form>
+					<p id="center-wysija">Let us spoil you with early access to our products and new releases. Subscribe Now!</p>
+					<div id="wysija-flex">
+						<p class="wysija-paragraph">
+						    <label>First name</label>
+						    
+						    	<input type="text" name="wysija[user][firstname]" class="wysija-input " title="First name"  value="" />
+						 
+						 	<span class="abs-req">
+						        <input type="text" name="wysija[user][abs][firstname]" class="wysija-input validated[abs][firstname]" value="" />
+						    </span>
+				    
+						</p>
+						<p class="wysija-paragraph">
+						    <label>Last name</label>
+						    
+						    	<input type="text" name="wysija[user][lastname]" class="wysija-input " title="Last name"  value="" />
+						    
+						    <span class="abs-req">
+						        <input type="text" name="wysija[user][abs][lastname]" class="wysija-input validated[abs][lastname]" value="" />
+						    </span>
+						    
+						</p>
+						<p class="wysija-paragraph">
+						    <label>Email <span class="wysija-required">*</span></label>
+						    
+				    	<input type="text" name="wysija[user][email]" class="wysija-input validate[required,custom[email]]" title="Email"  value="" />
+				    
+					    <span class="abs-req">
+					        <input type="text" name="wysija[user][abs][email]" class="wysija-input validated[abs][email]" value="" />
+					    </span>
+				    
+						</p>
 					</div>
+					<input class="wysija-submit wysija-submit-field" type="submit" value="Subscribe!" />
+
+					    <input type="hidden" name="form_id" value="1" />
+					    <input type="hidden" name="action" value="save" />
+					    <input type="hidden" name="controller" value="subscribers" />
+					    <input type="hidden" value="1" name="wysija-page" />
+
+					    
+					        <input type="hidden" name="wysija[user_list][list_ids]" value="1" />
+
+						</form></div></aside>
+
+					
 				</div>
 			</section>
 

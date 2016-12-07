@@ -20,8 +20,8 @@
 </head>
 
 <body <?php body_class(); ?>>
-<div id="page" class="site">
-    <a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'horse-website' ); ?></a>
+<div id="front-page" class="site <?php echo get_theme_mod( 'layout_setting', 'no-sidebar' ); ?>">
+    <a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'popperscores' ); ?></a>
 
     <header id="masthead" class="site-header" role="banner">
         <div class="site-branding"
