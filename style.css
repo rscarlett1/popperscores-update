@@ -482,7 +482,7 @@ input[type="submit"]:hover {
 	color: #fff;
 }
 
-button:focus,
+/*button:focus,
 input[type="button"]:focus,
 input[type="reset"]:focus,
 input[type="submit"]:focus,
@@ -492,7 +492,7 @@ input[type="reset"]:active,
 input[type="submit"]:active {
 	border-color: #000;
 	color: #fff;
-}
+}*/
 
 input[type="text"],
 input[type="email"],
@@ -1395,7 +1395,6 @@ input.search-submit{
 
 #members-sign-up{
 	padding: 1rem 0;
-	background-color: yellow;
 }
 
 aside#wysija-2 {
@@ -1423,9 +1422,6 @@ aside#wysija-2 {
 	}
 
 }
-
-
-
 
 /*member links*/
  #buttons{
@@ -1488,18 +1484,7 @@ button.view {
 	}
 }
 
-@media screen and (min-width: 1000px){
 
-
-
-
-
-
-
-
-
-    
-      
        
     
     

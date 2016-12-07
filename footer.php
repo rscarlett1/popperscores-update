@@ -30,9 +30,7 @@
 				</div>
 
 				<div class="subscription-details" class="footer-details">
-					<div>
-						<p>Become a Love Of Horses Member</p>
-					</div>
+					
 
 					<div>
 						<form>
@@ -65,9 +63,3 @@
 
 </body>
 </html>
-
-
-
-
-
-			
