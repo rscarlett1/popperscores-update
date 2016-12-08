@@ -479,7 +479,7 @@ input[type="button"]:hover,
 input[type="reset"]:hover,
 input[type="submit"]:hover {
 	border-color: #000;
-	color: #fff;
+	
 }
 
 	button:focus,
@@ -494,12 +494,12 @@ input[type="submit"]:hover {
 	color: #fff;
 	}
 
-input[type="text"],
-input[type="email"],
-input[type="url"],
-input[type="password"],
-input[type="search"],
-textarea {
+	input[type="text"],
+	input[type="email"],
+	input[type="url"],
+	input[type="password"],
+	input[type="search"],
+	textarea {
 	color: #666;
 	border: 1px solid #ccc#;
 	border-radius: 3px;
@@ -638,6 +638,10 @@ a:active {
 
 .no-js .main-navigation ul ul {
 	display: block;
+}
+
+nav#site-navigation {
+    padding: 5px;
 }
 
 .dropdown-toggle {
