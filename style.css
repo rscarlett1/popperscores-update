@@ -1215,6 +1215,11 @@ input.search-submit{
 #primary{
 	background-color: #d7d7d7;
 }
+
+#primary h2, h3{
+	color: #346d36;
+}
+
 .indent{
 	max-width: 1200px;
 	margin: 0 auto;
@@ -1236,14 +1241,17 @@ input.search-submit{
 /*featured product images*/
 #featured-products{
 	padding: 1rem 0;
-	background-color: olive;
 }
 
 /*mobile view*/
+
+div#mobile-view-details {
+    text-align: center;
+}
+
 .placeholder{
 	width: 250px;
 	height: 250px;
-	border: black 2px solid;
 	margin: 10px auto;
 }
 
@@ -1262,8 +1270,8 @@ input.search-submit{
 @media screen and (min-width: 600px){
 	
 	.no-display-1{
-	display: inline-block;
-}
+		display: inline-block;
+	}
 	
 	#img-movement{
 		display: flex;
@@ -1329,13 +1337,10 @@ input.search-submit{
 }
 
 #detailed-images div img{
-	max-width: 300px;
-	max-height: 300px;
+	height: auto;
 	display: block;
 	margin: 0 auto;
 }
-
-
 
 @media screen and (min-width: 700px){
 	#mobile-view-details{
@@ -1392,9 +1397,7 @@ input.search-submit{
 	input[type="submit"] {
     margin-bottom: 10px;
 	}	
-
 }
-
 
 /*member sign up form*/
 
@@ -1405,7 +1408,8 @@ input.search-submit{
 aside#wysija-2 {
     width: 100%;
     margin: 20 auto;
-}
+    border: black solid;
+	}
 
 @media screen and (min-width: 500px){
 	
@@ -1432,10 +1436,12 @@ aside#wysija-2 {
  #buttons{
  	padding: 1rem 0;
  	display: inline-block;
+ 	width: 100%;
 }
 
 .button-left,
 .button-right{
+	text-align: center;
 	width: 100%;
 	padding: 5px;
 }
@@ -1443,12 +1449,6 @@ aside#wysija-2 {
 button.view {
     font-size: 20;
     padding: 6px 6px;
-}
-
-#flex{
-	display: flex;
-	flex-direction: column;
-	text-align: center;
 }
 
 @media screen and (min-width: 600px){
@@ -2752,9 +2752,6 @@ img.alignleft {
 --------------------------------------------------------------*/
 /*styling whole footer*/
 
-footer{
-	background-color: yellow;
-}
 .site-info{
 	height:  20%;
 	font-family: "Open Sans, sans-serif";
@@ -2778,6 +2775,7 @@ footer{
 .shipping-info p {
     font-size: larger;
     font-weight: bold;
+    color: white;
 }
 
 #footer-widget-details{
@@ -2841,7 +2839,13 @@ aside#text-2 {
     font-size: larger;
 }
 
+#copyright{
+	display: none;
+}
 
+#copyright-mobile{
+	color: #fff;
+}
 /*footer flex*/
 #footer-widget-details{
 	display: flex;
@@ -2871,6 +2875,14 @@ aside#text-2 {
 
 		div#footer-3 {
     	align-self: flex-start;
+	}
+
+	#copyright{
+		display: inline-block;
+		color: #fff;
+		max-width: 85%;
+		font-weight: bold;
+		font-family: "Open-Sans";
 	}
 
 }

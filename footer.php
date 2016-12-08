@@ -36,6 +36,12 @@
 					<?php dynamic_sidebar('footer-2'); ?>
 					</div>
 					<?php endif; ?>
+					
+					<div id="copyright">
+					</br>
+					<p>&#169; 2016 Scarlett Website Services</small></p>
+					</div>
+
 				</div>
 
 				<div id="footer-3" class="footer-widget-area">
@@ -46,7 +52,10 @@
 					<?php endif; ?>
 				</div>
 
-				<div>Copy right details</div>
+				<div id="copyright-mobile">
+					<p>&#169; 2016 Scarlett Website Services</small></p>
+				</div>
+
 			</div><!--footer-widget-details -->
 		</div><!--site-info -->
 			

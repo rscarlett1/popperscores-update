@@ -24,23 +24,23 @@ get_header(); ?>
 					<div id="img-movement">
 
 						<div class="placeholder">
-							<img src="http://localhost/wordpress/wp-content/uploads/2016/12/holsteiner-stute-2400px.png" alt="">
+							<img src="http://localhost/wordpress/wp-content/uploads/2016/12/placeholder-horse.jpg" alt="Featured Product Horse">
 						</div>
 
 						<div class="placeholder">
-							<img src="http://localhost/wordpress/wp-content/uploads/2016/12/holsteiner-stute-2400px.png" alt="">
+							<img src="http://localhost/wordpress/wp-content/uploads/2016/12/placeholder-horse.jpg" alt="Featured Product Horse">
 						</div>
 
 						<div class="placeholder">
-							<img src="http://localhost/wordpress/wp-content/uploads/2016/12/holsteiner-stute-2400px.png" alt="">
+							<img src="http://localhost/wordpress/wp-content/uploads/2016/12/placeholder-horse.jpg" alt="Featured Product Horse">
 						</div>
 
 						<div class="placeholder no-display-1">
-							<img src="http://localhost/wordpress/wp-content/uploads/2016/12/holsteiner-stute-2400px.png"" alt="">
+							<img src="http://localhost/wordpress/wp-content/uploads/2016/12/placeholder-horse.jpg"" alt="Featured Product Horse">
 						</div>
 
 						<div class="placeholder no-display-2">
-							<img src="http://localhost/wordpress/wp-content/uploads/2016/12/holsteiner-stute-2400px.png"" alt="">
+							<img src="http://localhost/wordpress/wp-content/uploads/2016/12/placeholder-horse.jpg" alt="Featured Product Horse">
 						</div>
 					</div>
 				</div>
@@ -49,7 +49,7 @@ get_header(); ?>
 			<section id="description-top">
 				<div class="indent" id="detailed-images">
 					<div id="image-left">
-						<img src="http://localhost/wordpress/wp-content/uploads/2016/12/holsteiner-stute-2400px.png" alt="featured product">
+						<img src="http://localhost/wordpress/wp-content/uploads/2016/12/placeholder-horse.jpg" alt="featured product">
 					</div>
 
 					<div>
@@ -67,7 +67,7 @@ get_header(); ?>
 					</div>
 
 					<div id="bottom-image">
-						<img src="http://localhost/wordpress/wp-content/uploads/2016/12/holsteiner-stute-2400px.png" alt="">
+						<img src="http://localhost/wordpress/wp-content/uploads/2016/12/placeholder-horse.jpg" alt="">
 					</div>
 
 				</div>
