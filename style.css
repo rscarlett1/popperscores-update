@@ -2771,6 +2771,11 @@ footer{
 	padding: 1px;
 }
 
+.shipping-info p {
+    font-size: larger;
+    font-weight: bold;
+}
+
 #footer-widget-details{
 	background-color: black;
 	
@@ -2792,7 +2797,6 @@ h3.widget-title {
 
 /*styling site-links*/
 #footer-1{
-	background-color: red;
 	width: 100%;
 	
 }
@@ -2805,7 +2809,6 @@ aside#nav_menu-2 {
 
 /*styling social-links*/
 #footer-2{
-	background-color: orange;
 	width: 100%;
 	
 }
@@ -2817,8 +2820,7 @@ aside#lsi_widget-2 {
 
 /*styling address*/
 #footer-3{
-	background-color: yellow;
-	width: 100%;
+	width: 92.5%;
 }
 
 aside#text-2 {
@@ -2841,10 +2843,6 @@ aside#text-2 {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-}
-
-.footer-widget-area{
-	background-color: olive;
 }
 
 @media screen and (min-width: 700px){
@@ -2878,8 +2876,8 @@ aside#text-2 {
 		max-width: 31%;
 	}
 
-		.footer-widget-area, 
-	aside#nav_menu-2 {
+	.footer-widget-area, 
+		aside#nav_menu-2 {
     	max-width: 82%;
 	}
 
@@ -2888,92 +2886,26 @@ aside#text-2 {
 	}
 
 	aside#lsi_widget-2 {
-    max-width: 82%;
-}
+   	 	max-width: 82%;
+	}
 
 	#footer-3{
 		max-width: 31%;
 	}
 
 	aside#text-2 {
-    background-color: pink;
-    max-width: 82%;
-    margin-left: 20px;
-}
-}
-
-
-
-
-
-
-
-
-
-
-
-/*/* old styling site-links*/
-/*#links a{
-	color: white;
-	text-align: center;
-	text-decoration: none;
-	padding: 2px;
-}
-
-#email-padding{
-	margin-left: 20px;
-}
-
-#links,
-input[type="text"] {
-    margin-bottom: 10px;
-}
-
-#links,
-input[type="submit"] {
-    margin-top: 10px;
-}
-*/
-/*styling address detauls*/
-
-/*#address-details{
-	padding-top: 15px;
-	font-style: normal;
-	font-weight: bold;
-	font-size: larger;
-}*/
-
-
-
-
-/*flex styling mobile*/
-
-/*#links{
-	display: flex;
-	flex-direction: column;
-}
-
-.subscription-details{
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-}
-
-
-
-
-flex styling middle screen
-@media screen and (min-width: 50em){
-	.site-links{
-		display: flex;
-		flex-wrap: wrap;
-
-	}
-
-	.footer-details{
-		flex: 1 0 30%;
+	    max-width: 82%;
+	    margin-left: 20px;
 	}
 }
 
-*/
+
+
+
+
+
+
+
+
+
 
