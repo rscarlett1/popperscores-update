@@ -22,25 +22,25 @@
 			<div id="footer-widget-details">
 
 
-				<div id="footer-1">
+				<div id="footer-1" class="footer-widget-area">
 					<?php if(is_active_sidebar('footer-1')): ?> 
-					<div class="footer-widget-area">
+					<div>
 					<?php dynamic_sidebar('footer-1'); ?>
 					</div>
 					<?php endif; ?>
 				</div>	
 
-				<div id="footer-2">
+				<div id="footer-2" class="footer-widget-area">
 					<?php if(is_active_sidebar('footer-2')): ?> 
-					<div class="footer-widget-area">
+					<div>
 					<?php dynamic_sidebar('footer-2'); ?>
 					</div>
 					<?php endif; ?>
 				</div>
 
-				<div class="footer-widget-area" id="footer-3">
+				<div id="footer-3" class="footer-widget-area">
 					<?php if(is_active_sidebar('footer-3')): ?> 
-					<div class="footer-widget-area">
+					<div>
 					<?php dynamic_sidebar('footer-3'); ?>
 					</div>
 					<?php endif; ?>
