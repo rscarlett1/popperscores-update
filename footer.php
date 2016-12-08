@@ -13,49 +13,43 @@
 </div><!-- #content -->
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
-		<div class=site-info>		
+		<div class="site-info">
+
 			<div class="shipping-info">
 				<p>Free Shipping On Orders Over $100 Within New Zealand</p>
 			</div><!-- .shipping-info -->
 
-			<div class="site-links">
-				<div id="links" class="footer-details">
-					<div>Our Website Links</div>
-					<a href="#">Blog</a>
-					<a href="#">Contact Us</a>
-					<a href="#">FAQs</a>
-					<a href="#">Returns and Shipping</a>
-					<a href="#">Testimonials</a>
-					<a href="#">Customer Support</a>
-				</div>
+			<div id="footer-widget-details">
 
-				<div class="subscription-details" class="footer-details">
-					
 
-					<div>
-						<form>
-							<label>First name: </label>
-							<input type="text" name="fname"><br>
-							<label>Last name:</label>
-							<input type="text" name="lname"><br>
-							<label id="email-padding">E-mail:</label>
-							<input type="email" name="email" autocomplete="off"><br>
-							<input type="submit">
-						</form>
+				<div id="footer-1">
+					<?php if(is_active_sidebar('footer-1')): ?> 
+					<div class="footer-widget-area">
+					<?php dynamic_sidebar('footer-1'); ?>
 					</div>
+					<?php endif; ?>
+				</div>	
+
+				<div id="footer-2">
+					<?php if(is_active_sidebar('footer-2')): ?> 
+					<div class="footer-widget-area">
+					<?php dynamic_sidebar('footer-2'); ?>
+					</div>
+					<?php endif; ?>
 				</div>
 
-				<div id="address-details" class="footer-details">
-					<address>
-	 					<div>Visit us at:</div>
-						<div>35 California Drive</div>
-						<div>Totara Park</div>
-						<div>Upper Hutt</div>
-					</address>
-				</div><!-- .footer-details-->
+				<div class="footer-widget-area" id="footer-3">
+					<?php if(is_active_sidebar('footer-3')): ?> 
+					<div class="footer-widget-area">
+					<?php dynamic_sidebar('footer-3'); ?>
+					</div>
+					<?php endif; ?>
+				</div>
 
-			</div><!-- .site-links -->
-		</div><!-- .site-info -->
+				<div>Copy right details</div>
+			</div><!--footer-widget-details -->
+		</div><!--site-info -->
+			
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 
