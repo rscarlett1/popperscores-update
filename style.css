@@ -1336,8 +1336,9 @@ div#mobile-view-details {
 
 }
 
-#detailed-images div img{
-	height: auto;
+#image-left img{
+	max-width: 300px;
+	max-height: 300px;
 	display: block;
 	margin: 0 auto;
 }
@@ -1376,7 +1377,7 @@ div#mobile-view-details {
 	max-width: 300px;
 	max-height: 300px;
 	display: block;
-	/*margin: 0 auto;*/
+	margin: 0 auto;
 }
 
 @media screen and (min-width: 700px){
@@ -1403,6 +1404,7 @@ div#mobile-view-details {
 
 #members-sign-up{
 	padding: 1rem 0;
+
 }
 
 aside#wysija-2 {
@@ -1411,7 +1413,7 @@ aside#wysija-2 {
     border: black solid;
 	}
 
-@media screen and (min-width: 500px){
+@media screen and (min-width: 800px){
 	
 	#center-wysija{
 		text-align: center;
@@ -1454,6 +1456,7 @@ button.view {
 @media screen and (min-width: 600px){
 
 	#flex{
+		display: flex;
 		flex-direction: row;
 		flex-wrap: wrap;
 	}
@@ -2883,6 +2886,10 @@ aside#text-2 {
 		max-width: 85%;
 		font-weight: bold;
 		font-family: "Open-Sans";
+	}
+
+	#copyright-mobile{
+		display: none;
 	}
 
 }
