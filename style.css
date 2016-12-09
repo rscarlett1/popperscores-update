@@ -123,6 +123,11 @@ h1 {
 	margin: 0.67em 0;
 }
 
+/* Site Title Color */
+h1.entry-title{ 
+	color: #346d36; 
+}
+
 mark {
 	background: #ff0;
 	color: #000;
@@ -2883,7 +2888,7 @@ aside#text-2 {
 	#copyright{
 		display: inline-block;
 		color: #fff;
-		max-width: 85%;
+		/*width: 100%;*/
 		font-weight: bold;
 		font-family: "Open-Sans";
 	}
@@ -2905,7 +2910,7 @@ aside#text-2 {
 	}
 
 	#footer-2{
-		max-width: 31%;
+		max-width: 30%;
 	}
 
 	aside#lsi_widget-2 {
@@ -2921,6 +2926,22 @@ aside#text-2 {
 	    margin-left: 20px;
 	}
 }
+
+@media screen and (min-width: 1000px){
+	#copyright p{
+		margin-right: 20px;
+		}
+
+@media screen and (min-width: 1200px){
+	#copyright p{
+		margin-right: 35px;
+		}
+
+@media screen and (min-width: 1200px){
+	#copyright p{
+		margin-right: 50px;
+		
+
 
 
 

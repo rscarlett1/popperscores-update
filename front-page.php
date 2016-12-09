@@ -137,11 +137,11 @@ get_header(); ?>
 			<section id="buttons">
 				<div id="flex" class="indent">
 					<div class="button-left">
-						<button class="view">View our blog "A Horse Of Course"</button>
+						<a href="index.php/blog"><button class="view">View our blog "A Horse Of Course"</button></a>
 					</div>
 
 					<div class="button-right">
-						<button class="view">View Our Testimonials</button>
+						<a href="index.php/testimonials"><button class="view">View Our Testimonials</button></a>
 					</div>
 				</div>
 			</section>
