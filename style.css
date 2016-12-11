@@ -2015,8 +2015,8 @@ button.view {
 /* Post Meta */
 .entry-meta {
 	margin: 0 -1.473684210526316em;
-	/*padding: 2em 1.473684210526316em;*/
-	font-family: "Fira Sans", sans-serif;
+	padding: 2em 1.473684210526316em;
+	font-family: "Open Sans", sans-serif;
 	font-size: 95%;
 	font-style: italic;
 	text-align: center;
@@ -2032,7 +2032,7 @@ button.view {
 /* Conditions for no-sidebar layout */
 @media screen and (min-width: 57em) {
 	.entry-meta {
-		position: relative;
+		/*position: relative;*/
 		width: 100%;
 		width: 100vw;
 		left: 0;
