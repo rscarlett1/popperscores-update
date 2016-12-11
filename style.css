@@ -1091,7 +1091,6 @@ nav#site-navigation {
 # Header
 --------------------------------------------------------------*/
 .site-header{
-	background-color: red;
 	margin: 0;
 	padding: 0;
 	height: 15%;
@@ -1963,7 +1962,6 @@ button.view {
 }
 
 
-
 .hentry {
 	margin: 0 0 1.5em;
 	padding-bottom: 2em;
@@ -2017,8 +2015,8 @@ button.view {
 /* Post Meta */
 .entry-meta {
 	margin: 0 -1.473684210526316em;
-	padding: 2em 1.473684210526316em;
-	font-family: "Open Sans", sans-serif;
+	/*padding: 2em 1.473684210526316em;*/
+	font-family: "Fira Sans", sans-serif;
 	font-size: 95%;
 	font-style: italic;
 	text-align: center;
