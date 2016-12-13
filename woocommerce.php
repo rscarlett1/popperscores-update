@@ -15,6 +15,18 @@ function popperscores_wrapper_end() {
 }
 remove_action( 'woocommerce_after_main_content', 'woocommerce_output_content_wrapper_end', 10 );  
 add_action( 'woocommerce_after_main_content', 'popperscores_wrapper_end', 10 );
-get_header();
-woocommerce_content();
-get_footer();
+
+get_header(); ?>
+
+	<div id="primary" class="content-area">
+		<main id="main" class="site-main" role="main">
+
+			
+			<?php woocommerce_content(); ?>
+
+		</main><!-- #main -->
+	</div><!-- #primary -->
+
+<?php get_sidebar(); ?>
+<?php get_footer(); ?>
+

@@ -39,7 +39,9 @@
              <div id="top-header">
                 <div>We Deliver Every Weekday</div>
                 <div><i class="fa fa-phone" aria-hidden="true"></i> &#40;04&#41;123 4567</div>
-                <div>My Bag</div>
+                <div id="basket">
+                <a href="index.php/basket">Your Basket</a>
+                </div>
             </div>
                 <div id="horse-image">
                     <div id="logo-area">
