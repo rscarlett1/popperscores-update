@@ -58,7 +58,7 @@
                                 <span class="screen-reader-text">Search for:</span>
                                 <input type="search" class="search-field" value="" name="s" />
                             </label>
-                        <input type="submit" class="search-submit" value="Search" />
+                                <input type="submit" class="search-submit" value="Search" />
                         <!-- <input type="text" name="search" placeholder="Search"/> -->
                         </form>
                     </div><!--  logo area -->

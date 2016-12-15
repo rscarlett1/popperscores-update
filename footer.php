@@ -20,8 +20,6 @@
 			</div><!-- .shipping-info -->
 
 			<div id="footer-widget-details">
-
-
 				<div id="footer-1" class="footer-widget-area">
 					<?php if(is_active_sidebar('footer-1')): ?> 
 					<div>
@@ -39,7 +37,7 @@
 					
 					<div id="copyright">
 					</br>
-					<p>&#169; 2016 Scarlett Website Services</small></p>
+					<p><small>&#169; 2016 Scarlett Website Services</small></p>
 					</div>
 
 				</div>
