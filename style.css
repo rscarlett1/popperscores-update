@@ -2825,31 +2825,20 @@ h3.widget-title {
 
 /*styling site-links*/
 #footer-1{
-	width: 100%;
+	width: 90%;
+	padding-top: 10px;
 }
 
-aside#nav_menu-2 {
-    margin: 20px;
-}
 
 /*styling social-links*/
 #footer-2{
-	width: 100%;
-	
-}
-
-aside#lsi_widget-2 {
-    margin: 20px;
+	width: 90%;
 }
 
 
 /*styling address*/
 #footer-3{
-	width: 92.5%;
-}
-
-aside#text-2 {
-    margin: 20px auto;
+	width: 90%;
 }
 
 #text-2 div p {
@@ -2876,18 +2865,17 @@ aside#text-2 {
 	align-items: center;
 }
 
-@media screen and (min-width: 700px){
+@media screen and (min-width: 900px){
 	
 	#footer-widget-details{
-		/*margin: 0 auto;*/
-		max-width: 33%;
+		display: flex;
 		flex-direction: row;
 		flex-wrap: wrap;
-		justify-content: space-around;
+		justify-content: space-between;
 	}
 
 	#footer-widget-details div{
-		flex: 1 0 30%;
+		flex: 1 0 33%;
 		align-self: flex-start;
 	}
 
@@ -2906,20 +2894,20 @@ aside#text-2 {
 	.footer-widget-area, 
 		aside#nav_menu-2 {
     	max-width: 82%;
-    	/*margin: 0;*/
+    	margin: 0;
 	}
 
 	aside#lsi_widget-2 {
    	 	max-width: 82%;
-  /* 	 	margin: 0;*/
+   	 	margin: 0;
 	}
 
 
 	aside#text-2 {
 	    max-width: 82%;
 	    margin-left: 20px;
-	    /*margin: 0;
-	}*/
+	    margin: 0;
+	}
 }
 
 
