@@ -12,19 +12,35 @@
 // When the page is ready
 (function($) {
 
+  $(document).ready(function(){
+
+      $("#go").click(function() {
+                $("#testDiv").animate({width: 400}, 300)
+                .animate({height: 300}, 400)
+                .animate({left: 200}, 500)
+                .animate({top: "+=100", borderWidth: 10}, "slow")
+            });
+  });
+
+  
+
     // I've added jQuery to this pen
 
-// When the page is ready
-$(document).ready(function(){
-  
-  // Our connection to the API
-  $.ajax({
-    url: 'https://api.github.com/users/rscarlett1',
-    success: weGotTheData,
-    error: somethingWentWrong
-  });
-  
-});
+    // When the page is ready
+  $(document).ready(function(){
+
+    // Our connection to the API
+      $.ajax({
+        url: 'https://api.github.com/users/rscarlett1',
+        success: weGotTheData,
+        error: somethingWentWrong
+      });
+
+      $("h1").prepend("Watch This! ");
+
+      $("h1").append("<p>This loads information requested from Git Hub webside. </p>");
+    
+    });
 
 function weGotTheData(response){
       
@@ -53,13 +69,26 @@ function weGotTheData(response){
     
     // Put it on the screen
     $('#place-for-data-to-go').append($article);
+
+    $('#place-for-data-to-go').css("border", "3px solid black");
+
+    $('#place-for-data-to-go').css("padding", "10px");
+
+    $()
+
+
   //});
 
-}
+    }
 
-// Couldn't connect to the API for some reason.
-// Is the URL wrong? Did we ask for information improperly?
-function somethingWentWrong(){
-  $('#place-for-data-to-go').html('Could not connect to API');
-}
+  // Couldn't connect to the API for some reason.
+  // Is the URL wrong? Did we ask for information improperly?
+  function somethingWentWrong(){
+    $('#place-for-data-to-go').html('Could not connect to API');
+  }
+
+  
+  
+
+
 })( jQuery );

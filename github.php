@@ -15,11 +15,26 @@
 				
 			endwhile; // End of the loop. ?>
 
-			<h1>Using the <a href="http://jsonplaceholder.typicode.com/">JSON Placeholder API</a></h1>
+			<div id="intro">
 
-			<p>Anything below this line was loaded via the API<br><br><br><br></p>
+				<button id="go">Start Animation</button>
+	        			<div id="testDiv">
+	        				
+	        			</div>
+
+					<h1>Using the Github API</h1>
+
+					<p>Anything below this line was loaded via the API<br><br><br><br></p>
+			</div>
 
 			<div id="place-for-data-to-go"></div>
+
+			<div id="example"></div>
+
+
+
+
+		
 
 
 		</main><!-- #main -->
