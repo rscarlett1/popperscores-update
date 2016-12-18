@@ -16,20 +16,26 @@
 			endwhile; // End of the loop. ?>
 
 			<div id="intro">
-
 				<button id="go">Start Animation</button>
-	        			<div id="testDiv">
-	        				
-	        			</div>
+	        	
+	        	<div id="testdiv">
+	        		
+	        	</div>
+			
+				<h1>Using the Github API</h1>
 
-					<h1>Using the Github API</h1>
-
-					<p>Anything below this line was loaded via the API<br><br><br><br></p>
+				<p>Anything below this line was loaded via the API<br><br><br><br></p>
 			</div>
 
 			<div id="place-for-data-to-go"></div>
 
 			<div id="example"></div>
+		
+			<div id="repos">	
+				<h1>Using the Github API</h1>
+
+				<div id="name-repos"></div>
+			</div>
 
 
 

@@ -22,37 +22,40 @@
 			<div id="footer-widget-details">
 				<div id="footer-1" class="footer-widget-area">
 					<?php if(is_active_sidebar('footer-1')): ?> 
-					<div>
+					
 					<?php dynamic_sidebar('footer-1'); ?>
-					</div>
+					
 					<?php endif; ?>
 				</div>	
 
 				<div id="footer-2" class="footer-widget-area">
 					<?php if(is_active_sidebar('footer-2')): ?> 
-					<div>
 					<?php dynamic_sidebar('footer-2'); ?>
-					</div>
+					
 					<?php endif; ?>
 					
 					<div id="copyright">
-					</br>
-					<p><small>&#169; 2016 Scarlett Website Services</small></p>
+						</br>
+						<p><small>&#169; 2016 Scarlett Website Services</small></p>
 					</div>
 
 				</div>
 
 				<div id="footer-3" class="footer-widget-area">
 					<?php if(is_active_sidebar('footer-3')): ?> 
-					<div>
+					
 					<?php dynamic_sidebar('footer-3'); ?>
-					</div>
+					
 					<?php endif; ?>
+
+					
 				</div>
 
 				<div id="copyright-mobile">
 					<p>&#169; 2016 Scarlett Website Services</small></p>
 				</div>
+
+				
 
 			</div><!--footer-widget-details -->
 		</div><!--site-info -->
