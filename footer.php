@@ -34,10 +34,10 @@
 					
 					<?php endif; ?>
 					
-					<div id="copyright">
+					<section id="copyright">
 						</br>
-						<p><small>&#169; 2016 Scarlett Website Services</small></p>
-					</div>
+						<p>&#169; 2016 Scarlett Website Services</p>
+					</section>
 
 				</div>
 
